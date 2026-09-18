@@ -17,7 +17,7 @@ input {
     background-color: #333;
     color: #eee;
     outline: none;
-    width: 80%;
+    width: 79%;
 }
 
 button {
@@ -27,7 +27,7 @@ button {
     color: #fff;
     cursor: pointer;
     transition: 0.5s;
-    width: 70px;
+    width: 90px;
 }
 
 button:hover {
@@ -47,5 +47,15 @@ li {
     background-color: #4a148c;
     padding: 10px;
     margin: 10px auto;
-    border-radius: #eee;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    cursor: pointer;
 }
